@@ -3,6 +3,7 @@
 }
 body{
   background-color: #23252C;
+  font-family: 'Inter', sans-serif;
 }
 
 .container{
@@ -19,4 +20,80 @@ body{
   border-top-left-radius: 1em;
   height: 317px;
   object-fit: cover;
+}
+
+.main-area{
+  background-color: #1A1B21;
+}
+
+.top-words{
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+h1{
+  color: #fff;
+  font-size: 1.563rem;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+}
+
+h2{
+  color: #F3BF99;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-bottom: 0.6em;
+}
+
+.top-words p a{
+  color: #F5F5F5;
+  font-size: 0.65rem;
+  text-decoration: none;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 2.188em 0em 2.188em;
+}
+
+.button{
+  text-decoration: none;
+  font-size: 0.875rem;
+  border-radius: 0.2em;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  width: 115px;
+}
+
+.email{
+  color: #374151;
+  background-color: #fff;
+ 
+}
+
+.linkedin{
+  background-color: #5093E2;
+  color: #fff;
+}
+
+.text-place{
+  margin: 2em 2.188em 2em 2.188em;
+}
+
+h3{
+  color: #F5F5F5;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.text-place p{
+  color: #DCDCDC;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 0.64rem;
+}
+
+h3:nth-of-type(2){
+  margin-top: 2em;
 }
