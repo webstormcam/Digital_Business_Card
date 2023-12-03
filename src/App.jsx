@@ -1,6 +1,7 @@
 
 import Photo from './photo.jsx'
 import Body from './body.jsx'
+import Footer from "./footer.jsx"
 function App() {
 
   return (
@@ -8,6 +9,7 @@ function App() {
      <div className='container'>
       <Photo/>
       <Body/>
+      <Footer/>
      </div>
       
     </>
