@@ -13,6 +13,7 @@ body{
   max-width: 317px;
   margin: 0 auto;
   margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .photo{
@@ -100,5 +101,16 @@ h3:nth-of-type(2){
 
 footer{
   background-color: #161619;
+  border-radius: 0px 0px 0.625em 0.625em;
+}
+
+.footer_container{
   display: flex;
+ justify-content: space-around;
+ margin: 1em 2.5em;
+}
+
+.footer_container img{
+  width: 25px;
+  height: 25px;
 }
